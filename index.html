@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heartopia 攻略战 | 最全游戏攻略</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+
+        body {
+            background-color: #fff9fb;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* 顶部导航 */
+        header {
+            background-color: #f8bbd0;
+            padding: 14px 20px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 99;
+        }
+
+        header h1 {
+            font-size: 22px;
+            color: #c2185b;
+            margin-bottom: 8px;
+        }
+
+        nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #c2185b;
+            font-weight: bold;
+        }
+
+        /* 容器 */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 15px;
+        }
+
+        /* 板块标题 */
+        .section-title {
+            font-size: 18px;
+            color: #c2185b;
+            margin: 25px 0 15px;
+            border-left: 4px solid #f48fb1;
+            padding-left: 10px;
+        }
+
+        /* 卡片样式 */
+        .card {
+            background: white;
+            border-radius: 12px;
+            padding: 16px;
+            margin-bottom: 12px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .card h3 {
+            color: #c2185b;
+            margin-bottom: 6px;
+        }
+
+        /* 攻略分类按钮 */
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin: 15px 0;
+        }
+
+        .category-btn {
+            background: #fce4ec;
+            border: none;
+            border-radius: 10px;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+            color: #c2185b;
+            cursor: pointer;
+        }
+
+        /* 底部 */
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Heartopia 攻略战</h1>
+    <nav>
+        <a href="#home">首页</a>
+        <a href="#level">关卡攻略</a>
+        <a href="#character">角色推荐</a>
+        <a href="#resource">资源获取</a>
+    </nav>
+</header>
+
+<div class="container">
+    <!-- 游戏简介 -->
+    <div id="home" class="card">
+        <h3>游戏简介</h3>
+        <p>Heartopia 是一款治愈系养成 + 剧情 + 装扮类游戏，主打温馨世界观、角色互动与关卡挑战。本攻略提供最新关卡通关、角色强度、资源规划、活动指南。</p>
+    </div>
+
+    <!-- 攻略分类 -->
+    <h2 class="section-title">攻略分类</h2>
+    <div class="category-grid">
+        <button class="category-btn">关卡通关</button>
+        <button class="category-btn">角色强度榜</button>
+        <button class="category-btn">资源速刷</button>
+        <button class="category-btn">活动攻略</button>
+    </div>
+
+    <!-- 热门攻略 -->
+    <h2 class="section-title">热门攻略</h2>
+
+    <div id="level" class="card">
+        <h3>🗺️ 关卡攻略（持续更新）</h3>
+        <p>• 1-10 关新手通关思路</p>
+        <p>• 困难模式阵容推荐</p>
+        <p>• 隐藏关卡解锁条件</p>
+    </div>
+
+    <div id="character" class="card">
+        <h3>👧 角色强度榜 T0~T3</h3>
+        <p>• T0 必练角色：xxx、yyy</p>
+        <p>• 新手优先培养建议</p>
+        <p>• 角色技能加点优先级</p>
+    </div>
+
+    <div id="resource" class="card">
+        <h3>💎 资源快速获取指南</h3>
+        <p>• 钻石免费获取途径</p>
+        <p>• 金币高效刷法</p>
+        <p>• 体力合理分配方案</p>
+    </div>
+</div>
+
+<footer>
+    Heartopia 攻略战 • MVP 版本 • 持续更新中
+</footer>
+
+</body>
+</html>
